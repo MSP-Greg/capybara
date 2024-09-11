@@ -3,6 +3,8 @@ source "https://rubygems.org"
 gem 'bundler', '< 3.0'
 gemspec path: '..'
 
+gem 'puma', github: 'MSP-Greg/puma', branch: '00-env-fixes-lib'
+
 gem 'rack', '~>3.0'
 gem 'rackup'
 gem 'sinatra', '~>4'
