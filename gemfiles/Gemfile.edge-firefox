@@ -9,4 +9,4 @@ gem 'selenium-webdriver', '>= 4.8.0'
 gem 'rack', github: 'rack/rack'
 gem 'sinatra', github: 'sinatra/sinatra', branch: 'master'
 
-gem 'puma', github: 'puma/puma'
+gem 'puma', github: 'MSP-Greg/puma', branch: "00-env-fixes-lib"
