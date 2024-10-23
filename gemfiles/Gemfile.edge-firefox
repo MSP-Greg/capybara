@@ -6,7 +6,7 @@ gemspec path: '..'
 gem 'xpath', github: 'teamcapybara/xpath'
 
 gem 'selenium-webdriver', '>= 4.8.0'
-gem 'rack', github: 'rack/rack'
+gem "rackup", '~> 1.0'
 gem 'sinatra', github: 'sinatra/sinatra', branch: 'master'
 
-gem 'puma', github: 'puma/puma'
+gem 'puma', github: 'MSP-Greg/puma', branch: '00-rackup-1.0.1'
