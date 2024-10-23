@@ -3,5 +3,6 @@ source "https://rubygems.org"
 gem 'bundler', '< 3.0'
 gemspec path: '..'
 
-gem 'rack', '~>2.0'
 gem 'sinatra', '~>3'
+gem 'puma', github: 'MSP-Greg/puma', branch: '00-rackup-1.0.1'
+gem "rackup", '~> 1.0'
